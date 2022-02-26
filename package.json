@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "mongodb": "^4.2.2",
+    "parse-ms": "^2.1.0",
+    "random-words": "^1.1.2"
+  }
+}
