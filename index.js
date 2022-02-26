@@ -9,7 +9,7 @@ const bot = new Client({
 // KEY="OTE4OTM2MDY2MDUwODg3NzEx.YbOf5w.rRYLOBvX9seOnn4z7wl1U2JNm5o"
 
 const { MongoClient } = require('mongodb');
-const uri = "mongodb+srv://conutik:conutik2006@cluster0.7q7dg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const uri = "test";
 
 bot.mongo = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
@@ -38,4 +38,4 @@ for (const file of eventFiles) {
 // ['command'].forEach(x => require(`./handlers/${x}`)(bot));
 
 
-bot.login("OTE4OTM2MDY2MDUwODg3NzEx.YbOf5w.rRYLOBvX9seOnn4z7wl1U2JNm5o")
+bot.login("test")
