@@ -5,8 +5,6 @@ const bot = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS]
 })
 
-// MONGO="mongodb+srv://conutik:conutik2006@cluster0.7q7dg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-// KEY="OTE4OTM2MDY2MDUwODg3NzEx.YbOf5w.rRYLOBvX9seOnn4z7wl1U2JNm5o"
 
 const { MongoClient } = require('mongodb');
 const uri = "test";
